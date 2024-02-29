@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">LMC</string>
+    <string name="title_activity_paiement">Paiement</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+
+    <!-- Checkout -->
+    <string name="google_pay_status_unavailable">Unfortunately, Google Pay is not available on this device.</string>
+    <string name="google_wallet_status_unavailable" translatable="false">Unfortunately, Google Wallet is not available on this phone.</string>
+    <string name="payments_show_name">Successfully received payment data for %s!</string>
+    <string name="gateway_replace_name_example">"Gateway name set to \"example\" - please modify Constants.java and replace it with your own gateway."</string>
+    <string name="checkout_item_description">Description</string>
+    <string name="add_google_wallet_success" translatable="false">The pass was added successfully!</string>
+
+</resources>

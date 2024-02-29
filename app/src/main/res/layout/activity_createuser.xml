@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.Createuser">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                app:srcCompat="@drawable/encre" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Création du profil utilisateur"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/bottom_border"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="8dp"
+                android:background="@android:color/black" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+
+
+            >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/border"
+
+
+                android:orientation="vertical">
+
+
+                <EditText
+                    android:id="@+id/ID2"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:hint="ID" />
+
+                <EditText
+
+                    android:id="@+id/Password2"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:hint="PASSWORD"
+
+
+                    />
+
+                <EditText
+                    android:id="@+id/Password3"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:hint="Tape your password again"
+
+
+                    />
+
+
+                <EditText
+                    android:id="@+id/Clef"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:hint="Adresse mail"
+
+
+                    />
+
+                <EditText
+
+                    android:id="@+id/City"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="City" />
+
+
+                />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+
+
+                    >
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1">
+
+
+                        <View
+                            android:id="@+id/right_border"
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:background="@android:color/black" />
+
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="PAYS"
+                            android:textColor="@color/black"
+                            android:textSize="40dp"
+
+
+                            />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:background="@drawable/border"
+                        android:orientation="horizontal"
+
+
+                        >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+
+                            <ImageView
+                                android:id="@+id/DrapeauFrance"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:layout_weight="1"
+                                app:srcCompat="@drawable/france2"
+
+                                />
+
+                            <ImageView
+                                android:id="@+id/DrapeauSuisse"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:layout_weight="1"
+                                app:srcCompat="@drawable/suisse2" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+
+                            >
+
+                            <RadioGroup
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <RadioButton
+                                    android:id="@+id/franceBoutton"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="50dp"
+                                    android:text="FRANCE" />
+
+                                <RadioButton
+                                    android:id="@+id/suisseBoutton"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="50dp"
+
+                                    android:text="SUISSE" />
+                            </RadioGroup>
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                style="?android:attr/progressBarStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:id="@+id/ErrorMessage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" />
+
+            <Button
+
+                android:id="@+id/Connexion"
+
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Inscription"
+
+
+                android:textColor="@color/black" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/retourButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="RETOUR"
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/inscription" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

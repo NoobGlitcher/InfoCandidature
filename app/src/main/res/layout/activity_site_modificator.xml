@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.siteModificator">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <RadioButton
+                android:id="@+id/radioButtonLogo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@android:color/transparent"
+
+                />
+
+            <RadioButton
+                android:id="@+id/radioButtonLeft"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@android:color/transparent" />
+
+            <RadioButton
+                android:id="@+id/radioButtonRight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@android:color/transparent" />
+
+            <WebView
+                android:id="@+id/webview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imgLogo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/LogoSearch"
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@android:drawable/ic_menu_search" />
+
+                    <TextView
+                        android:id="@+id/logoText"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:text="Image Logo" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imgLeft"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/LeftSearch"
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@android:drawable/ic_menu_search" />
+
+                    <TextView
+                        android:id="@+id/LeftText"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:text="Image Header Gauche" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imgRight"
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        />
+
+                    <TextView
+                        android:id="@+id/textValidation"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:text="TextView" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/RightSearch"
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@android:drawable/ic_menu_search" />
+
+                    <TextView
+                        android:id="@+id/RightText"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:text="Image Header Droite" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textContact"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="" />
+
+                <EditText
+                    android:id="@+id/editTextContact"
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+
+                    android:layout_weight="1"
+                    android:hint="Modification 'CAS CONTACT'" />
+
+                <Button
+                    android:id="@+id/buttonModificator"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Modifier le site"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

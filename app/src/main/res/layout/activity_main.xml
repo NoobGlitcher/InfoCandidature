@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:text="Welcome"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="80sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textChoice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/black"
+                android:text="Choisis une activité :)"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="40sp"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/SiteModificator"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:text="Site Modificator"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/textModificator"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="L'outil complémetaire d'un Creator de Site, dans la poche !"
+                    android:textAlignment="center"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/EscapeGame"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:text="Escape Game"
+
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/textGame"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="Seulement pour les vrais criminels..."
+                    android:textAlignment="center"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/Loggin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:text="Login"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/textLoggin"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="Via une base de donnée distante, cela va de soit."
+                    android:textAlignment="center"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/eShop"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:text="E-shop"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/textShop"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="Si vous possédez des thunes."
+                    android:textAlignment="center"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/Animation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:text="Animation"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/textAnimation"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="Cristal du Long Métrage,       1992, Annecy"
+                    android:textAlignment="center"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/Wallet"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:text="Wallet"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/textWallet"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="Soutenez-moi en effectuant un don."
+                    android:textAlignment="center"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

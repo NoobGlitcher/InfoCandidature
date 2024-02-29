@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.InfoCandidature"
+        tools:targetApi="31">
+        <activity
+            android:name=".View.siteModificator"
+            android:exported="false" />
+        <activity
+            android:name=".View.loggin"
+            android:exported="false" />
+        <activity
+            android:name=".View.game"
+            android:exported="false" />
+        <activity
+            android:name=".View.Eshop"
+            android:exported="false" />
+        <activity
+            android:name=".View.Createuser"
+            android:exported="false" />
+        <activity
+            android:name=".View.chickenGame"
+            android:exported="false" />
+        <activity
+            android:name=".View.CheckoutSuccessActivity"
+            android:exported="false" />
+        <activity
+            android:name=".View.Checkout"
+            android:exported="false" />
+        <activity
+            android:name=".View.Bidules"
+            android:exported="false" />
+        <activity
+            android:name=".View.Animation"
+            android:exported="false" />
+        <activity
+            android:name=".View.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
